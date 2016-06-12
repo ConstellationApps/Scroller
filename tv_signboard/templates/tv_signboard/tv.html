@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TV Slider -- {{ id }}</title>
+		<script src="{% static 'tv_slider/slideshow.js' %}"></script>
+		<script type="text/javascript">
+			jQuery(function($){
+				$.simplescroller( {{ id }} );
+			});
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
